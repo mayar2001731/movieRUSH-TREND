@@ -1,5 +1,7 @@
 body{
     background-color: rgb(35, 32, 32) !important;
+    color: white;
+
 }
 footer{
 position:fixed;
