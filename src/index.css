@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(35, 32, 32) !important;
+}
+footer{
+position:fixed;
+bottom: 0;
+width: 100%;
+
+
+
+}
+.imglayer{
+position:absolute;
+top: 1%;
+left: 3px;
+right: 3px;
+bottom: 11px;
+background-color: rgb(21, 21, 21,0.6);
+opacity: 0;
+text-align: center;
+
+
+}
+.imglayer:hover{
+    opacity: 1;
+}
+
+.imginfo{
+position:absolute;
+color: aliceblue;
+width: 100%;
+top: 30%;
+}
+.imginfo h6{
+font-size: 35px;
+
+
+}
+
+.pparent h6{
+font-size: 35px;
+
+}
+
+//*let formik = useFormik({
+initialValues:{
+email:""
+password:""},
+onsubmit:(values)=>console.log("hello".values)
+
+
+})
