@@ -29,7 +29,7 @@ text-align: center;
 
 .imginfo{
 position:absolute;
-color: aliceblue;
+color: white;
 width: 100%;
 top: 30%;
 }
@@ -44,11 +44,3 @@ font-size: 35px;
 
 }
 
-//*let formik = useFormik({
-initialValues:{
-email:""
-password:""},
-onsubmit:(values)=>console.log("hello".values)
-
-
-})
